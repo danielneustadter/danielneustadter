@@ -36,11 +36,11 @@ Built for **Operation Agile Saber 2026**, OCHO helps coordinate disaster respons
 
 | EOC Dashboard | Accountability | UXO Hazard |
 |:-------------:|:--------------:|:----------:|
-| [![EOC Dashboard](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/eoc_dashboard.png)](https://github.com/danielneustadter/OCHO) | [![Accountability](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/eoc_accountability.png)](https://github.com/danielneustadter/OCHO) | [![UXO Hazard](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/uxo_hazard_view.png)](https://github.com/danielneustadter/OCHO) |
+| [![EOC Dashboard](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/eoc_dashboard.png)]([https://github.com/danielneustadter/OCHO](https://github.com/danielneustadter/OCHO-Disaster-Response-App)) | [![Accountability](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/eoc_accountability.png)]([https://github.com/danielneustadter/OCHO](https://github.com/danielneustadter/OCHO-Disaster-Response-App)) | [![UXO Hazard](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/uxo_hazard_view.png)]([https://github.com/danielneustadter/OCHO](https://github.com/danielneustadter/OCHO-Disaster-Response-App)) |
 
 | Mobile Reports | Map | Offline Queue |
 |:--------------:|:---:|:-------------:|
-| [![Field Reports](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/mobile_field_reports.png)](https://github.com/danielneustadter/OCHO) | [![Map View](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/mobile_map_view.png)](https://github.com/danielneustadter/OCHO) | [![Offline Queue](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/mobile_queue.png)](https://github.com/danielneustadter/OCHO) |
+| [![Field Reports](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/mobile_field_reports.png)]([https://github.com/danielneustadter/OCHO](https://github.com/danielneustadter/OCHO-Disaster-Response-App)) | [![Map View](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/mobile_map_view.png)]([https://github.com/danielneustadter/OCHO](https://github.com/danielneustadter/OCHO-Disaster-Response-App)) | [![Offline Queue](https://raw.githubusercontent.com/danielneustadter/OCHO/main/pictures_demo/mobile_queue.png)]([https://github.com/danielneustadter/OCHO](https://github.com/danielneustadter/OCHO-Disaster-Response-App)) |
 
 `React` `Express` `PostgreSQL` `Docker` `PWA` `WebSockets` `IndexedDB`
 
