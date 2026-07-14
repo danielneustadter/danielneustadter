@@ -6,7 +6,7 @@ Most of what I work on sits somewhere between software development, cybersecurit
 
 ## Current Focus
 
-- Building **osintapp**, an open-source OSINT collection platform
+- Planning **osintapp**, an open-source OSINT collection platform (early stage)
 - Experimenting with automated scanning and threat detection
 - Learning more Flutter while building offline-capable mobile applications
 - Finding excuses to automate repetitive work
