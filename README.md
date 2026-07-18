@@ -1,38 +1,48 @@
 # Daniel Neustadter
 
-Software developer in the U.S. Air Force with an interest in security engineering, OSINT, and building tools that solve real operational problems.
+Software developer in the U.S. Air Force with an interest in security engineering and building tools that solve real operational problems.
 
 Most of what I work on sits somewhere between software development, cybersecurity, and automation. I enjoy building things that are practical first and flashy second.
 
 ## Current Focus
 
-- Planning **osintapp**, an open-source OSINT collection platform (early stage)
-- Experimenting with automated scanning and threat detection
-- Learning more Flutter while building offline-capable mobile applications
-- Finding excuses to automate repetitive work
+- **[e2096](https://github.com/danielneustadter/e2096)** — automating DAF Form 2096 personnel actions end-to-end (SBIR concept prototype)
+- **[VetClaims Local](https://github.com/danielneustadter/vetclaims-local)** — fully-local, self-hosted VA disability claim preparation
+- **[Nestward360](https://github.com/danielneustadter/nestward360)** — a privacy-first family safety app built with an agentic planning workflow
 
-## Tech I Use
+## Featured Projects
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![OSINT](https://img.shields.io/badge/OSINT-lightgrey?style=flat)
-![DevSecOps](https://img.shields.io/badge/DevSecOps-green?style=flat)
+### e2096 — DAF Form 2096 Automation Platform
 
-## GitHub
+An airman describes a personnel action in plain English; an LLM grounded on an AFECD/AFOCD retrieval corpus derives the correct classification action, fills the **actual DAF Form 2096 PDF**, routes it through human approvals with real **PAdES digital signatures**, and archives every version in a hash-chained, write-once signature vault. Built as an SBIR demonstration prototype — all data is fictional and every generated PDF is watermarked.
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=danielneustadter&theme=radical)](https://git.io/streak-stats)
+| Platform Dashboard | Signed DAF Form 2096 | Demonstration Report |
+|:------------------:|:--------------------:|:--------------------:|
+| [![e2096 dashboard](https://raw.githubusercontent.com/danielneustadter/e2096/main/docs/dashboard.png)](https://github.com/danielneustadter/e2096) | [![Fully signed DAF Form 2096](https://raw.githubusercontent.com/danielneustadter/e2096/main/docs/form_signed.png)](https://github.com/danielneustadter/e2096) | [![SBIR demonstration report](https://raw.githubusercontent.com/danielneustadter/e2096/main/docs/report.png)](https://github.com/danielneustadter/e2096) |
 
-[![Daniel's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=danielneustadter&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
+`Python` `FastAPI` `pyHanko` `pypdf` `RAG` `PAdES / digital signatures` `SQLite`
 
-## Projects
+---
 
-### OCHO
+### VetClaims Local
 
-**Military Disaster Response PWA**
+Self-hosted VA disability claim preparation that never sends your records to anyone's cloud. Upload service and medical records, let a local LLM (via Ollama) analyze them with cited condition suggestions, and walk away with a filled, ready-to-file claim packet — 21-526EZ, personal statements, Intent to File, and an indexed evidence PDF. Local inference, local OCR, zero telemetry. Under active development; not affiliated with the VA.
 
-Built for **Operation Agile Saber 2026**, OCHO helps coordinate disaster response when connectivity is unreliable. Field personnel can submit damage reports, UXO sightings, accountability updates, and evacuation information while offline. Everything syncs automatically once a connection returns, while EOC staff monitor activity through a live dashboard.
+`Python` `FastAPI` `React` `TypeScript` `Vite` `Ollama` `SQLite`
+
+---
+
+### Nestward360
+
+A Life360-style family safety app: private circles, live location on a shared map, place alerts, SOS, and a 48-hour location trail. Built safety-and-privacy-first — no covert tracking mode exists, consent is shown up front, and history is enforced by deletion. One React Native + Expo codebase for iOS and Android with a NestJS backend and realtime WebSocket fan-out, planned end-to-end with the BMAD agentic workflow.
+
+`React Native` `Expo` `TypeScript` `NestJS` `Socket.IO` `PostgreSQL` `Docker`
+
+---
+
+### OCHO — Military Disaster Response PWA
+
+Built for **Operation Agile Saber 2026**, OCHO helps coordinate disaster response when connectivity is unreliable. Field personnel submit damage reports, UXO sightings, accountability updates, and evacuation information while offline; everything syncs automatically once a connection returns, while EOC staff monitor activity through a live dashboard.
 
 | EOC Dashboard | Accountability | UXO Hazard |
 |:-------------:|:--------------:|:----------:|
@@ -60,15 +70,26 @@ Converts stakeholder input into SMART requirements, market research prompts, RFI
 
 `Next.js` `React` `TypeScript` `Tailwind CSS` `Groq SDK`
 
----
-
-### Other Stuff
+## Other Projects
 
 | Project | What it is |
 |---------|------------|
-| [**osintapp**](https://github.com/danielneustadter/osintapp) | Open-source OSINT platform that I'm actively building. |
-| [**codingforbeginners**](https://github.com/danielneustadter/codingforbeginners) | Python exercises and notes from when I was first learning. |
-| [**flutter-basic-calculator**](https://github.com/danielneustadter/flutter-basic-calculator) | A simple Flutter project that turned into a UI learning exercise. |
+| [**militarysmartcards.com**](https://github.com/danielneustadter/militarysmartcards.com) | Open-source, up-to-date guide for servicemembers configuring their CAC to DISA standard. |
+| [**usaf-mobile-index**](https://github.com/danielneustadter/usaf-mobile-index) | Open-source index documenting Air Force and military mobile apps — because no such project existed. |
+| [**danielneustadter.com**](https://github.com/danielneustadter/danielneustadter.com) | My personal site and resume. |
+
+## Tech I Use
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/-React%20Native-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 
 ## Find Me
 
@@ -76,4 +97,3 @@ Converts stakeholder input into SMART requirements, market research prompts, RFI
 [![Website](https://img.shields.io/badge/Website-black?style=flat&logo=googlechrome)](https://danielneustadter.com/)
 
 If one of my projects is useful, feel free to open an issue, submit a PR, or just steal an idea and build something better. That's half the point of open source.
-```
